@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wynnfloatingcapefix",
+  "version": "${version}",
+  "name": "Wynn Floating Cape Fix",
+  "description": "A single-mixin mod fixing capes floating when a player's armor is hidden with a Silverbull subscription",
+  "authors": ["celeste"],
+  "contact": {
+    "repo": "https://github.com/celestialfault/wynnfloatingcapefix"
+  },
+  "license": "Unlicense",
+  "environment": "client",
+  "mixins": [
+    "wynnfloatingcapefix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.20.2"
+  }
+}
